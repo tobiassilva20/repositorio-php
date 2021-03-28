@@ -25,10 +25,11 @@
 					<?php  
 						$select = "SELECT * FROM clientes;";
 						$resultado = mysqli_query($conexao, $select);
-						asort($resultado);
+						
 					if(mysqli_num_rows($resultado) > 0){
 
 						while ($dados = mysqli_fetch_array($resultado)) {
+							
 					?>
 
 					<tr>
