@@ -1,10 +1,21 @@
 <?php 
-	require_once '../../vendor/autoload.php';
 
-	$id = $_GET['id'];
+	require_once '../../vendor/autoload.php';
+	
+	// Sessão.
+	session_start();
+	$id = $_POST['id'];
 	
 	$produtoDao = new App\Model\ProdutoDao();
-	$produtoDao->delete($id);
-	header('Location: ../../listar.php');
+
+	if ($produtoDao->delete($id)) {
+		$_SESSION['mensagem'] = "Produto deletado com sucesso!";
+		$_SESSION['status'] = "success";
+		header('Location: ../../listar.php');
+	}else{
+		$_SESSION['mensagem'] = "Ocorreu um erro ao deletar o produto!";
+		$_SESSION['status'] = "danger";
+		header('Location: ../../listar.php');
+	}
 
  ?>

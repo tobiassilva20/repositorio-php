@@ -10,7 +10,7 @@ namespace App\Model;
 			$stmt = Conexao::getConn()->prepare($sql);
 			$stmt->bindValue(1, $produto->getNome());
 			$stmt->bindValue(2, $produto->getDescricao());
-			$stmt->execute();
+			return $stmt->execute();
 		}
 
 		public function read(){
@@ -35,7 +35,8 @@ namespace App\Model;
 			$stmt->bindValue(1, $produto->getNome());
 			$stmt->bindValue(2, $produto->getDescricao());
 			$stmt->bindValue(3, $produto->getId());
-			$stmt->execute();
+			
+			return $stmt->execute();
 		}
 
 		public function delete($id){
@@ -43,7 +44,7 @@ namespace App\Model;
 
 			$stmt = Conexao::getConn()->prepare($sql);
 			$stmt->bindValue(1, $id);
-			$stmt->execute();
+			return $stmt->execute();
 		}
 	}
 
