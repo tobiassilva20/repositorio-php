@@ -11,11 +11,11 @@
 	if ($produtoDao->delete($id)) {
 		$_SESSION['mensagem'] = "Produto deletado com sucesso!";
 		$_SESSION['status'] = "success";
-		header('Location: ../../listar.php');
+		header('Location: ../../index.php');
 	}else{
 		$_SESSION['mensagem'] = "Ocorreu um erro ao deletar o produto!";
 		$_SESSION['status'] = "danger";
-		header('Location: ../../listar.php');
+		header('Location: ../../index.php');
 	}
 
  ?>

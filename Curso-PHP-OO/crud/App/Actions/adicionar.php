@@ -16,11 +16,11 @@
 		if ($produtoDao->create($produto)) {
 			$_SESSION['mensagem'] = "Produto salvo com sucesso!";
 			$_SESSION['status'] = "success";
-			header('Location: ../../listar.php');
+			header('Location: ../../index.php');
 		}else{
 			$_SESSION['mensagem'] = "Ocorreu um erro ao salvar o produto!";
 			$_SESSION['status'] = "danger";
-			header('Location: ../../listar.php');
+			header('Location: ../../index.php');
 		}
 		
 	}
