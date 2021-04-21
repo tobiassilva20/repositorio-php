@@ -1,0 +1,12 @@
+{
+    "name": "tobias/php-dio2",
+    "authors": [
+        {
+            "name": "Tobias Silva",
+            "email": "tobiassilva@hotmail.it"
+        }
+    ],
+    "require": {
+        "wead/digital-cep": "^1.0"
+    }
+}

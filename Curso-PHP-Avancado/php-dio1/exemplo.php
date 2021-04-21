@@ -4,8 +4,10 @@ require_once "vendor/autoload.php";
 
 use tobias\digitalcep\Search;
 
-$search = new Search();
 
-print_r($search->getAddressFromZipCode("65068-192"));
+
+foreach(Search::getAddress("65068192") as $key => $value){
+    echo $key . " : " . $value . "\n";
+}
 
 ?>
