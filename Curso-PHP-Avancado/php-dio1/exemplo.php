@@ -8,5 +8,4 @@ $search = new Search();
 
 print_r($search->getAddressFromZipCode("65068-192"));
 
-
 ?>
