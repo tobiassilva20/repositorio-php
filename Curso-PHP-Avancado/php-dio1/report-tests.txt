@@ -1,0 +1,4 @@
+Search
+ [x] Get address default usage with data set "Endereço Rua Vinte"
+ [x] Get address default usage with data set "Endereço Rua Nsa Sra de Fatima"
+

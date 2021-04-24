@@ -16,6 +16,7 @@ class Search {
 
         $get = file_get_contents("https://viacep.com.br/ws/" . $zipCode. "/json");
         if($get){
+            print_r($get);
             Search::$address = (array) json_decode($get);
             return true;
         }else{
