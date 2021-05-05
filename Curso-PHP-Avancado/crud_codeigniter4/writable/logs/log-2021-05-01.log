@@ -1,0 +1,78 @@
+CRITICAL - 2021-05-01 15:14:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(229): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(181): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/tobias/Desktop/codeigniter4/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/tobias/Desktop/codeigniter4/spark(45): require('/home/tobias/De...')
+#4 {main}
+CRITICAL - 2021-05-01 13:45:21 --> Class 'Codeigniter\Controller' not found
+#0 /home/tobias/Desktop/codeigniter4/system/Router/Router.php(566): include_once()
+#1 /home/tobias/Desktop/codeigniter4/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(821): CodeIgniter\Router\Router->handle()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#7 {main}
+CRITICAL - 2021-05-01 13:45:44 --> Class 'Codeigniter\Controller' not found
+#0 /home/tobias/Desktop/codeigniter4/system/Router/Router.php(566): include_once()
+#1 /home/tobias/Desktop/codeigniter4/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(821): CodeIgniter\Router\Router->handle()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#7 {main}
+CRITICAL - 2021-05-01 14:41:17 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->showme()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#6 {main}
+CRITICAL - 2021-05-01 16:19:55 --> Invalid file: news/views.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(33): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-01 16:20:08 --> Invalid file: news/views.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(33): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-01 16:20:36 --> Invalid file: news/views.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(33): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-01 19:03:28 --> É necessário fornecer
+            um parâmetro para a notícia!
+#0 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#1 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#5 {main}
+CRITICAL - 2021-05-01 19:03:41 --> É necessário fornecer
+            um parâmetro para a notícia!
+#0 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#1 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#5 {main}

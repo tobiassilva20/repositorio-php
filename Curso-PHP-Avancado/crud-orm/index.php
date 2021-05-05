@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="control">
-                        <input type="submit" class="button is-link" 
+                        <input type="submit" class="button is-primary" 
                         name="btn-salvar" value="Salvar">
                     </div>
                 </form>

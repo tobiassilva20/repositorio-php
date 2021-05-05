@@ -1,0 +1,70 @@
+CRITICAL - 2021-05-02 16:19:52 --> Invalid file: home.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(8): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->index()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-02 16:20:20 --> Invalid file: home.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(8): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->index()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-02 16:20:21 --> Invalid file: home.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(8): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->index()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-02 16:20:52 --> Invalid file: home.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(8): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->index()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-02 16:21:34 --> Invalid file: home.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(8): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->index()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-02 16:24:35 --> Invalid file: welcome_page.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Pages.php(8): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Pages->index()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-02 16:27:04 --> Invalid file: /pages/sobre/.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/Home.php(14): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\Home->tobias()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}

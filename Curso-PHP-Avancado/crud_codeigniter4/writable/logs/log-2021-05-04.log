@@ -1,0 +1,70 @@
+CRITICAL - 2021-05-04 15:16:11 --> Allowed fields must be specified for model: App\Models\NewsModel
+#0 /home/tobias/Desktop/codeigniter4/system/BaseModel.php(1188): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /home/tobias/Desktop/codeigniter4/system/BaseModel.php(728): CodeIgniter\BaseModel->doProtectFields()
+#2 /home/tobias/Desktop/codeigniter4/system/Model.php(672): CodeIgniter\BaseModel->insert()
+#3 /home/tobias/Desktop/codeigniter4/system/BaseModel.php(670): CodeIgniter\Model->insert()
+#4 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(66): CodeIgniter\BaseModel->save()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->store()
+#6 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#7 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#10 {main}
+CRITICAL - 2021-05-04 15:18:34 --> Allowed fields must be specified for model: App\Models\NewsModel
+#0 /home/tobias/Desktop/codeigniter4/system/BaseModel.php(1188): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /home/tobias/Desktop/codeigniter4/system/BaseModel.php(728): CodeIgniter\BaseModel->doProtectFields()
+#2 /home/tobias/Desktop/codeigniter4/system/Model.php(672): CodeIgniter\BaseModel->insert()
+#3 /home/tobias/Desktop/codeigniter4/system/BaseModel.php(670): CodeIgniter\Model->insert()
+#4 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(66): CodeIgniter\BaseModel->save()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->store()
+#6 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#7 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#10 {main}
+CRITICAL - 2021-05-04 16:13:18 --> Invalid file: teplates/header.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(102): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->delete()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+CRITICAL - 2021-05-04 16:14:51 --> Invalid file: news/delete_seccess.php
+#0 /home/tobias/Desktop/codeigniter4/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/tobias/Desktop/codeigniter4/system/Common.php(1250): CodeIgniter\View\View->render()
+#2 /home/tobias/Desktop/codeigniter4/app/Controllers/News.php(103): view()
+#3 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->delete()
+#4 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#5 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#8 {main}
+ERROR - 2021-05-04 17:20:56 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:21:32 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:22:42 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:23:21 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:24:43 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:30:54 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:33:25 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:35:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:37:42 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:37:58 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2021-05-04 17:49:13 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2021-05-04 18:59:39 --> É necessário fornecer
+            um parâmetro para a notícia!
+#0 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#1 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#5 {main}
+CRITICAL - 2021-05-04 19:43:39 --> Id Inválido!
+#0 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#1 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#2 /home/tobias/Desktop/codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/tobias/Desktop/codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 /home/tobias/Desktop/codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/home/tobias/De...')
+#5 {main}
