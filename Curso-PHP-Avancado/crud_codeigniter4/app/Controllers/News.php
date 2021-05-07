@@ -3,9 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\NewsModel;
-use CodeIgniter\CodeIgniter;
-use CodeIgniter\Controller;
-use CodeIgniter\HTTP\IncomingRequest;
+
 
 /**
  * Classe responsável por responder às requisições com os respectivos métodos.
