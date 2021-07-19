@@ -1,0 +1,22 @@
+CRITICAL - 2021-07-11 09:49:57 --> Id Inválido!
+#0 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->view()
+#1 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/var/www/html/P...')
+#5 {main}
+ERROR - 2021-07-11 09:50:01 --> Error connecting to the database: Access denied for user '****'@'localhost'
+CRITICAL - 2021-07-11 09:50:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+#0 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/BaseModel.php(586): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/app/Models/NewsModel.php(26): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/app/Controllers/News.php(16): App\Models\NewsModel->getNews()
+#6 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/CodeIgniter.php(941): App\Controllers\News->index()
+#7 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/CodeIgniter.php(437): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/PHP/Curso-PHP-Avancado/crud_codeigniter4/system/Commands/Server/rewrite.php(45): require_once('/var/www/html/P...')
+#11 {main}

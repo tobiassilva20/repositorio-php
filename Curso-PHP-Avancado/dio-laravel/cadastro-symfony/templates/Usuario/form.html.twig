@@ -1,0 +1,10 @@
+{%extends "base.html.twig" %}
+
+{% block title %}Cadastro de Usuários{% endblock %}
+{% block body %}
+    <form action="{{ url('web_usuario_salvar')}}" method="POST">
+        <input type="text" name="nome" placeholder="Nome...">
+        <input type="email" name="email" placeholder="E-mail..."><br><br>
+        <input type="submit" value="Salvar">
+    </form>
+{% endblock %}
